@@ -86,6 +86,61 @@ Target : Start module --> Choose Action : Start module --> Click "Finish"
 At S7-PLCSIM Advanced V5.0 --> Led for PLC52 is "Green"
 ```
 
-## Programming
-At PLC tags --> right click of mouse to click "add new tag table" and rename "MC1", Next, Import PLC tags.
+## Add PLC tags
+At TIA
+Add PLC tags --> right click of mouse to click "add new tag table" and rename "MC1", Next, Import PLC tags.
 
+## Factory IO
+Openfile project and Setting
+File --> Drivers --> CONFIGURATION --> Siemens S7-1200/1500 
+
+```
+Model           : S7-1500
+Host            : 192.168.0.152
+Network adapter : Siemens PLCSIM Virtual Ethernet Adapter
+```
+
+Click : Back
+Click : CONNECT
+
+# 
+At TIA
+
+```
+Project --> Program blocks  --> Delete : Main [OB1]
+                            --> Click right  --> Add new group --> name : Function --> Click right at "Function"
+                                Add new block --> name : MC, "Function block" --> OK --> Double click "MC"
+```
+
+```
+MC1(tag) --> click at tab Arress (Show address of tag) --> Filter "I" --> Copy all name and Data Type of "I"
+MC --> Past : name and type (Input)
+
+MC1(tag) -->  Copy all name and Data Type of "O"
+MC --> Past : name and type (Output)
+
+MC --> Static --> 
+    name    |   Data type
+    Step    |   Int
+    pos     |   Array[0..4, 0..4, 0..4] of Bool
+    Weight  |   Int
+
+Click : Save
+Click : Compile
+Click : Download to device
+```
+
+```
+Project --> Program blocks  --> Click right  --> Add new group --> name : MC1 --> Click right at "MC1"
+                                Add new block --> name : MC1, "Organization block" --> 
+                                Manual --> Language : LAD, Number : 131 --> Click : Ok
+```
+
+```
+Drag MC[FB1] to Network 1 of MC1[OB131]
+Manual --> Name : MC_DB, Number : 131 --> OK
+
+EN (Click line) and click "ON"
+
+Drag the name in MC1 to component of MC1(OB131)
+```
