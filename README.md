@@ -10,14 +10,14 @@
 
 ## Connecting TIA Portal 18 with PLC Sim Advanced 5.0
 ### PC2
-<img src="/Picture/1007.jpg" alt="Diagram plc" style="float: left; margin-right: 20px; margin-bottom: 15px;" />
-<img src="/Picture/1006.jpg" alt="Diagram plc" style="float: left; margin-right: 20px; margin-bottom: 15px;" />
+<img src="https://live.staticflickr.com/65535/53327168436_41942dc08d_k.jpg" alt="Diagram plc" style="float: left; margin-right: 20px; margin-bottom: 15px;" />
+<img src="https://live.staticflickr.com/65535/53327626970_e88d053cf1_c.jpg" alt="Diagram plc" style="float: left; margin-right: 20px; margin-bottom: 15px;" />
 
 ### PC1 
-<img src="/Picture/1001.jpg" alt="Diagram plc" style="float: left; margin-right: 20px; margin-bottom: 15px;" />
-<img src="/Picture/1002.jpg" alt="Diagram plc" style="float: left; margin-right: 20px; margin-bottom: 15px;" />
-<img src="/Picture/1003.jpg" alt="Diagram plc" style="float: left; margin-right: 20px; margin-bottom: 15px;" />
-<img src="/Picture/1004.jpg" alt="Diagram plc" style="float: left; margin-right: 20px; margin-bottom: 15px;" />
+<img src="https://live.staticflickr.com/65535/53327627265_af1e5dbfdf_c.jpg" alt="Diagram plc" style="float: left; margin-right: 20px; margin-bottom: 15px;" />
+<img src="https://live.staticflickr.com/65535/53327627270_d44f86fbf1_c.jpg" alt="Diagram plc" style="float: left; margin-right: 20px; margin-bottom: 15px;" />
+<img src="https://live.staticflickr.com/65535/53327168671_7089e5985c_c.jpg" alt="Diagram plc" style="float: left; margin-right: 20px; margin-bottom: 15px;" />
+<img src="https://live.staticflickr.com/65535/53327394743_a8426bcc38_c.jpg" alt="Diagram plc" style="float: left; margin-right: 20px; margin-bottom: 15px;" />
 <img src="/Picture/1005.jpg" alt="Diagram plc" style="float: left; margin-right: 20px; margin-bottom: 15px;" />
 
 <img src="/Picture/1008.jpg" alt="Diagram plc" style="float: left; margin-right: 20px; margin-bottom: 15px;" />
